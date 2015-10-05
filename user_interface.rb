@@ -7,6 +7,7 @@ puts "How much will you spend today?"
 customer = Customer.new(gets.chomp.to_i)
 
 #start bottle algorightm for the new customer
-new_customer = BottleAlgorithm.new(customer)
-new_customer.information
+
+BottleAlgorithm.new(customer)
+
 
